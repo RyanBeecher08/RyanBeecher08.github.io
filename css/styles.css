@@ -14,7 +14,7 @@ nav {
     justify-content: space-between; /* Ensures the tabs are on the left and LinkedIn is on the right */
     align-items: center; /* Centers items vertically */
     background-color: #0078d7; /* Universal navigation bar color */
-    color:lightslategray;
+    color:whitesmoke;
     padding: 10px 20px;
     position: sticky;
     top: 0;
