@@ -72,12 +72,13 @@ nav .linkedin:hover {
 
 .projects-page {
     background-color: lightslategray; /* Light Orange */
+    color: aquamarine;
 }
 
 .skills-page {
-    background-color:lightgreen; /* Light Coral */
+    color:lightgreen; /* Light Coral */
 }
 
 .employment-page {
-    background-color:lightskyblue; /* Lavender */
+    color:lightskyblue; /* Lavender */
 }
