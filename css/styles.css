@@ -10,8 +10,8 @@ body {
 /* Navigation Bar */
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Ensures the tabs are on the left and LinkedIn is on the right */
+    align-items: center; /* Centers items vertically */
     background-color: #0078d7; /* Universal navigation bar color */
     color: white;
     padding: 10px 20px;
@@ -23,13 +23,13 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 15px; /* Adds space between tabs */
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Keeps tabs inline */
 }
 
 nav ul li a {
@@ -43,6 +43,21 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #005fa3; /* Slightly darker shade for hover */
+}
+
+nav .linkedin {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #0a66c2;
+    margin-left: auto; /* Pushes LinkedIn link to the far-right */
+    transition: background-color 0.3s ease;
+}
+
+nav .linkedin:hover {
+    background-color: #084a9b;
 }
 
 /* LinkedIn Link Styling */
