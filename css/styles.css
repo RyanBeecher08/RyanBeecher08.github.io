@@ -4,7 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: white; /* Ensures text is readable on lightslategray */
+    background-color: lightslategray; /* Uniform background for all pages */
 }
 
 /* Navigation Bar */
@@ -74,30 +75,4 @@ nav .linkedin {
 
 nav .linkedin:hover {
     background-color: #084a9b;
-}
-
-/* Background Colors for Pages */
-.home-page {
-    background-color:lightslategray; 
-    color: lightslategray;
-}
-
-.about-page {
-    background-color:lightslategray;
-    color: lightslategray; 
-}
-
-.projects-html {
-    background-color: lightslategray; 
-    color: lightslategray;
-}
-
-.skills.html {
-    background-color: lightslategray;
-    color:lightslategray; 
-}
-
-.employment.html {
-    background-color: lightslategray;
-    color:lightslategray; 
 }
