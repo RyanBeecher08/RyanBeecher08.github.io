@@ -78,22 +78,26 @@ nav .linkedin:hover {
 
 /* Background Colors for Pages */
 .home-page {
-    background-color:lightblue; /* Light Blue */
+    background-color:lightslategray; 
+    color: lightslategray;
 }
 
 .about-page {
-    background-color:lightcyan; /* Soft Green */
+    background-color:lightslategray;
+    color: lightslategray; 
 }
 
 .projects-page {
-    background-color: lightslategray; /* Light Orange */
-    color: aquamarine;
+    background-color: lightslategray; 
+    color: lightslategray;
 }
 
 .skills-page {
-    color:lightgreen; /* Light Coral */
+    background-color: lightslategray;
+    color:lightslategray; 
 }
 
 .employment-page {
-    color:lightskyblue; /* Lavender */
+    background-color: lightslategray;
+    color:lightslategray; 
 }
