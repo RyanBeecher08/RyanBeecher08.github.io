@@ -1,0 +1,98 @@
+/* General Styles (Shared Across Pages) */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0078d7; /* Universal navigation bar color */
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #005fa3; /* Slightly darker shade for hover */
+}
+
+/* LinkedIn Button */
+nav .linkedin {
+    background-color: #0a66c2;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav .linkedin:hover {
+    background-color: #084a9b;
+}
+
+/* Page Background Colors */
+.home-page {
+    background-color: #e3f2fd; /* Light Blue */
+}
+
+.about-page {
+    background-color: #f9fbe7; /* Soft Green */
+}
+
+.projects-page {
+    background-color: #fff3e0; /* Light Orange */
+}
+
+.skills-page {
+    background-color: #fbe9e7; /* Light Coral */
+}
+
+.employment-page {
+    background-color: #ede7f6; /* Lavender */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
