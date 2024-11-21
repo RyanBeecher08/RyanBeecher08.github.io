@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: white; /* Ensures text is readable on lightslategray */
+    color: lightslategray; /* Ensures text is readable on lightslategray */
     background-color: lightslategray; /* Uniform background for all pages */
 }
 
